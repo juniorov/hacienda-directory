@@ -9,8 +9,6 @@ export class ApiService {
     async get(endpoint) {
         try{
             const urlApi = `${this.baseURL}${endpoint}`;
-            console.log(urlApi);
-
             const response = await fetch(urlApi);
 
             if(!response.ok){
