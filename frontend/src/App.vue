@@ -2,6 +2,7 @@
 import Nav from './components/Nav.vue';
 import Search from './components/Search.vue';
 import Taxpayer from './components/Taxpayer.vue';
+import PWAInstall from './components/PWAInstall.vue'
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import Taxpayer from './components/Taxpayer.vue';
     <Search />
     <Taxpayer />
   </div>
+  <PWAInstall />
 </template>
