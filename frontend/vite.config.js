@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Consulta Contribuyentes',
-        short_name: 'ConsultaDNI',
+        name: 'Hacienda Contribuyentes',
+        short_name: 'HaciendaDNI',
         description: 'Aplicación para consultar información de contribuyentes',
         theme_color: '#007bff',
         background_color: '#ffffff',
