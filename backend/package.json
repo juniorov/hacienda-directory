@@ -19,7 +19,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "prod": "pm2 start server.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
